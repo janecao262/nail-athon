@@ -1,0 +1,7 @@
+FROM python:3.13-slim
+WORKDIR /app
+COPY requirements-ui-server.txt .
+RUN pip install --no-cache-dir -r requirements-ui-server.txt
+COPY ui_server.py .
+EXPOSE 8080
+CMD ["python", "ui_server.py"]
