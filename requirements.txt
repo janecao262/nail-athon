@@ -1,6 +1,6 @@
 greennode-agentbase
+greennode-agent-bridge[langgraph]
 python-dotenv
 langchain-openai
 langchain
-mcp
-httpx
+jira
