@@ -1,0 +1,5 @@
+2026-06-16 13:26:34,395 - mcp_server - INFO - Confluence client initialized for https://confluence.zalopay.vn/ (basic auth, user: huyndt3)
+2026-06-16 13:26:34,413 - mcp_server - INFO - Jira client initialized for https://jira.zalopay.vn (PAT auth)
+2026-06-16 13:26:34,612 - mcp_server - INFO - JupyterHub client configured for http://10.60.37.95:8000/user/huyndt3 (user: huyndt3)
+2026-06-16 13:26:35,318 - mcp_server - WARNING - Failed to initialize Superset client: 401 Client Error: UNAUTHORIZED for url: https://data.zalopay.vn/api/v1/security/login
+2026-06-16 13:26:35,382 - mcp_server - INFO - Starting MCP Server...
